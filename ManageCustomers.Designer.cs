@@ -33,6 +33,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManageCustomers));
             this.label1 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -70,7 +71,7 @@
             this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(1068, 28);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(77, 36);
             this.button4.TabIndex = 15;
@@ -87,7 +88,7 @@
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(221, 167);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(121, 36);
             this.button3.TabIndex = 26;
@@ -103,7 +104,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(94, 167);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(121, 36);
             this.button1.TabIndex = 24;
@@ -129,7 +130,7 @@
             // 
             this.SearchTb.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SearchTb.Location = new System.Drawing.Point(94, 129);
-            this.SearchTb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SearchTb.Margin = new System.Windows.Forms.Padding(2);
             this.SearchTb.Name = "SearchTb";
             this.SearchTb.Size = new System.Drawing.Size(249, 29);
             this.SearchTb.TabIndex = 16;
@@ -164,7 +165,7 @@
             this.CustomersGV.DefaultCellStyle = dataGridViewCellStyle3;
             this.CustomersGV.GridColor = System.Drawing.SystemColors.Control;
             this.CustomersGV.Location = new System.Drawing.Point(359, 129);
-            this.CustomersGV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CustomersGV.Margin = new System.Windows.Forms.Padding(2);
             this.CustomersGV.Name = "CustomersGV";
             this.CustomersGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.CustomersGV.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
@@ -196,7 +197,7 @@
             this.panel1.Controls.Add(this.Counter);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(94, 243);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(248, 81);
             this.panel1.TabIndex = 28;
@@ -243,7 +244,8 @@
             this.Controls.Add(this.SearchTb);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "ManageCustomers";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -33,6 +33,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManageStaff));
             this.StaffGV = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
@@ -75,7 +76,7 @@
             this.StaffGV.DefaultCellStyle = dataGridViewCellStyle3;
             this.StaffGV.GridColor = System.Drawing.SystemColors.Control;
             this.StaffGV.Location = new System.Drawing.Point(360, 138);
-            this.StaffGV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.StaffGV.Margin = new System.Windows.Forms.Padding(2);
             this.StaffGV.Name = "StaffGV";
             this.StaffGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.StaffGV.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
@@ -123,7 +124,7 @@
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(265, 221);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(77, 36);
             this.button3.TabIndex = 32;
@@ -140,7 +141,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(94, 221);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(77, 36);
             this.button1.TabIndex = 31;
@@ -166,7 +167,7 @@
             // 
             this.PnumTb.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PnumTb.Location = new System.Drawing.Point(94, 180);
-            this.PnumTb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PnumTb.Margin = new System.Windows.Forms.Padding(2);
             this.PnumTb.Name = "PnumTb";
             this.PnumTb.Size = new System.Drawing.Size(249, 29);
             this.PnumTb.TabIndex = 29;
@@ -189,7 +190,7 @@
             // 
             this.FnameTb.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FnameTb.Location = new System.Drawing.Point(94, 138);
-            this.FnameTb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FnameTb.Margin = new System.Windows.Forms.Padding(2);
             this.FnameTb.Name = "FnameTb";
             this.FnameTb.Size = new System.Drawing.Size(249, 29);
             this.FnameTb.TabIndex = 27;
@@ -204,7 +205,7 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(179, 221);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(77, 36);
             this.button2.TabIndex = 33;
@@ -221,7 +222,7 @@
             this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(917, 28);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(77, 36);
             this.button4.TabIndex = 34;
@@ -247,10 +248,11 @@
             this.Controls.Add(this.FnameTb);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.StaffGV);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "ManageStaff";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Manage Staff";
             this.Load += new System.EventHandler(this.ManageStaff_Load);
             ((System.ComponentModel.ISupportInitialize)(this.StaffGV)).EndInit();

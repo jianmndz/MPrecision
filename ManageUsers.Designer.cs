@@ -33,6 +33,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManageUsers));
             this.label1 = new System.Windows.Forms.Label();
             this.FnameTb = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -68,7 +69,7 @@
             // 
             this.FnameTb.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FnameTb.Location = new System.Drawing.Point(94, 138);
-            this.FnameTb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FnameTb.Margin = new System.Windows.Forms.Padding(2);
             this.FnameTb.Name = "FnameTb";
             this.FnameTb.Size = new System.Drawing.Size(249, 29);
             this.FnameTb.TabIndex = 2;
@@ -106,7 +107,7 @@
             // 
             this.UnameTb.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UnameTb.Location = new System.Drawing.Point(94, 180);
-            this.UnameTb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UnameTb.Margin = new System.Windows.Forms.Padding(2);
             this.UnameTb.Name = "UnameTb";
             this.UnameTb.Size = new System.Drawing.Size(249, 29);
             this.UnameTb.TabIndex = 5;
@@ -129,7 +130,7 @@
             // 
             this.PwordTb.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PwordTb.Location = new System.Drawing.Point(94, 220);
-            this.PwordTb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PwordTb.Margin = new System.Windows.Forms.Padding(2);
             this.PwordTb.Name = "PwordTb";
             this.PwordTb.Size = new System.Drawing.Size(249, 29);
             this.PwordTb.TabIndex = 7;
@@ -152,7 +153,7 @@
             // 
             this.PnumTb.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PnumTb.Location = new System.Drawing.Point(94, 260);
-            this.PnumTb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PnumTb.Margin = new System.Windows.Forms.Padding(2);
             this.PnumTb.Name = "PnumTb";
             this.PnumTb.Size = new System.Drawing.Size(249, 29);
             this.PnumTb.TabIndex = 9;
@@ -166,7 +167,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(94, 299);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(77, 36);
             this.button1.TabIndex = 11;
@@ -183,7 +184,7 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(179, 299);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(77, 36);
             this.button2.TabIndex = 12;
@@ -200,7 +201,7 @@
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(265, 299);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(77, 36);
             this.button3.TabIndex = 13;
@@ -217,7 +218,7 @@
             this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(917, 28);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(77, 36);
             this.button4.TabIndex = 14;
@@ -254,7 +255,7 @@
             this.UsersGV.DefaultCellStyle = dataGridViewCellStyle3;
             this.UsersGV.GridColor = System.Drawing.SystemColors.Control;
             this.UsersGV.Location = new System.Drawing.Point(360, 138);
-            this.UsersGV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UsersGV.Margin = new System.Windows.Forms.Padding(2);
             this.UsersGV.Name = "UsersGV";
             this.UsersGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.UsersGV.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
@@ -302,7 +303,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.FnameTb);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "ManageUsers";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
