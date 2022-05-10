@@ -19,7 +19,7 @@ namespace MPrecision
         }
 
 
-        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jianc\Documents\InventoryMPrecision.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jianc\Documents\MPrecision\InventoryMPrecision.mdf;Integrated Security=True;Connect Timeout=30");
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {

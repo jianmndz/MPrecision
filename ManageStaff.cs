@@ -18,7 +18,7 @@ namespace MPrecision
             InitializeComponent();
         }
 
-        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jianc\Documents\InventoryMPrecision.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jianc\Documents\MPrecision\InventoryMPrecision.mdf;Integrated Security=True;Connect Timeout=30");
 
         private void ManageStaff_Load(object sender, EventArgs e)
         {

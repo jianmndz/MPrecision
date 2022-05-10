@@ -18,7 +18,7 @@ namespace MPrecision
             InitializeComponent();
         }
 
-        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jianc\Documents\InventoryMPrecision.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jianc\Documents\MPrecision\InventoryMPrecision.mdf;Integrated Security=True;Connect Timeout=30");
 
         private void Search(string search)
         {
@@ -82,6 +82,11 @@ namespace MPrecision
         {
             var counter = CustomersGV.Rows.Count-1;
             Counter.Text = counter.ToString();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
