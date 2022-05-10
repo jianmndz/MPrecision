@@ -61,7 +61,6 @@
             this.PwordTb.PasswordChar = '*';
             this.PwordTb.Size = new System.Drawing.Size(387, 30);
             this.PwordTb.TabIndex = 1;
-            this.PwordTb.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label1
             // 
@@ -74,7 +73,6 @@
             this.label1.Size = new System.Drawing.Size(102, 25);
             this.label1.TabIndex = 2;
             this.label1.Text = "Username";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // label2
             // 
@@ -87,7 +85,6 @@
             this.label2.Size = new System.Drawing.Size(98, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "Password";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button1
             // 
@@ -140,7 +137,6 @@
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
