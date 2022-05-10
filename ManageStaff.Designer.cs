@@ -74,8 +74,8 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.StaffGV.DefaultCellStyle = dataGridViewCellStyle3;
             this.StaffGV.GridColor = System.Drawing.SystemColors.Control;
-            this.StaffGV.Location = new System.Drawing.Point(480, 170);
-            this.StaffGV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.StaffGV.Location = new System.Drawing.Point(360, 138);
+            this.StaffGV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.StaffGV.Name = "StaffGV";
             this.StaffGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.StaffGV.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
@@ -97,7 +97,7 @@
             this.StaffGV.RowTemplate.Height = 24;
             this.StaffGV.RowTemplate.ReadOnly = true;
             this.StaffGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.StaffGV.Size = new System.Drawing.Size(845, 535);
+            this.StaffGV.Size = new System.Drawing.Size(634, 435);
             this.StaffGV.TabIndex = 17;
             this.StaffGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.StaffGV_CellContentClick);
             // 
@@ -107,9 +107,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 40.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(255)))));
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(9, 7);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(539, 89);
+            this.label1.Size = new System.Drawing.Size(434, 72);
             this.label1.TabIndex = 18;
             this.label1.Text = "MANAGE STAFF";
             // 
@@ -121,10 +122,10 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(353, 272);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button3.Location = new System.Drawing.Point(265, 221);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(103, 44);
+            this.button3.Size = new System.Drawing.Size(77, 36);
             this.button3.TabIndex = 32;
             this.button3.Text = "Delete";
             this.button3.UseVisualStyleBackColor = false;
@@ -138,10 +139,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(125, 272);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Location = new System.Drawing.Point(94, 221);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 44);
+            this.button1.Size = new System.Drawing.Size(77, 36);
             this.button1.TabIndex = 31;
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = false;
@@ -153,9 +154,10 @@
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label2.Location = new System.Drawing.Point(7, 224);
+            this.label2.Location = new System.Drawing.Point(5, 182);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(110, 28);
+            this.label2.Size = new System.Drawing.Size(90, 21);
             this.label2.TabIndex = 30;
             this.label2.Text = "Phone No.";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -163,10 +165,10 @@
             // PnumTb
             // 
             this.PnumTb.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PnumTb.Location = new System.Drawing.Point(125, 222);
-            this.PnumTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PnumTb.Location = new System.Drawing.Point(94, 180);
+            this.PnumTb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PnumTb.Name = "PnumTb";
-            this.PnumTb.Size = new System.Drawing.Size(331, 34);
+            this.PnumTb.Size = new System.Drawing.Size(249, 29);
             this.PnumTb.TabIndex = 29;
             // 
             // label3
@@ -175,9 +177,10 @@
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label3.Location = new System.Drawing.Point(7, 174);
+            this.label3.Location = new System.Drawing.Point(5, 141);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 28);
+            this.label3.Size = new System.Drawing.Size(88, 21);
             this.label3.TabIndex = 28;
             this.label3.Text = "Full Name";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -185,10 +188,10 @@
             // FnameTb
             // 
             this.FnameTb.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FnameTb.Location = new System.Drawing.Point(125, 170);
-            this.FnameTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.FnameTb.Location = new System.Drawing.Point(94, 138);
+            this.FnameTb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.FnameTb.Name = "FnameTb";
-            this.FnameTb.Size = new System.Drawing.Size(331, 34);
+            this.FnameTb.Size = new System.Drawing.Size(249, 29);
             this.FnameTb.TabIndex = 27;
             this.FnameTb.TextChanged += new System.EventHandler(this.FnameTb_TextChanged);
             // 
@@ -200,10 +203,10 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(239, 272);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Location = new System.Drawing.Point(179, 221);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(103, 44);
+            this.button2.Size = new System.Drawing.Size(77, 36);
             this.button2.TabIndex = 33;
             this.button2.Text = "Edit";
             this.button2.UseVisualStyleBackColor = false;
@@ -217,10 +220,10 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(1223, 34);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button4.Location = new System.Drawing.Point(917, 28);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(103, 44);
+            this.button4.Size = new System.Drawing.Size(77, 36);
             this.button4.TabIndex = 34;
             this.button4.Text = "Home";
             this.button4.UseVisualStyleBackColor = false;
@@ -228,12 +231,12 @@
             // 
             // ManageStaff
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(23)))), ((int)(((byte)(43)))));
             this.BackgroundImage = global::MPrecision.Properties.Resources.BANNER;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1341, 729);
+            this.ClientSize = new System.Drawing.Size(1006, 592);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button3);
@@ -244,7 +247,8 @@
             this.Controls.Add(this.FnameTb);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.StaffGV);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximizeBox = false;
             this.Name = "ManageStaff";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Manage Staff";

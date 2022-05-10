@@ -56,9 +56,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 40.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(255)))));
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(9, 7);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(554, 89);
+            this.label1.Size = new System.Drawing.Size(445, 72);
             this.label1.TabIndex = 1;
             this.label1.Text = "MANAGE USERS";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -66,10 +67,10 @@
             // FnameTb
             // 
             this.FnameTb.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FnameTb.Location = new System.Drawing.Point(125, 170);
-            this.FnameTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.FnameTb.Location = new System.Drawing.Point(94, 138);
+            this.FnameTb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.FnameTb.Name = "FnameTb";
-            this.FnameTb.Size = new System.Drawing.Size(331, 34);
+            this.FnameTb.Size = new System.Drawing.Size(249, 29);
             this.FnameTb.TabIndex = 2;
             // 
             // label3
@@ -78,9 +79,10 @@
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label3.Location = new System.Drawing.Point(7, 174);
+            this.label3.Location = new System.Drawing.Point(5, 141);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 28);
+            this.label3.Size = new System.Drawing.Size(88, 21);
             this.label3.TabIndex = 4;
             this.label3.Text = "Full Name";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -92,9 +94,10 @@
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label2.Location = new System.Drawing.Point(7, 224);
+            this.label2.Location = new System.Drawing.Point(5, 182);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(106, 28);
+            this.label2.Size = new System.Drawing.Size(87, 21);
             this.label2.TabIndex = 6;
             this.label2.Text = "Username";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -102,10 +105,10 @@
             // UnameTb
             // 
             this.UnameTb.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UnameTb.Location = new System.Drawing.Point(125, 222);
-            this.UnameTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.UnameTb.Location = new System.Drawing.Point(94, 180);
+            this.UnameTb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.UnameTb.Name = "UnameTb";
-            this.UnameTb.Size = new System.Drawing.Size(331, 34);
+            this.UnameTb.Size = new System.Drawing.Size(249, 29);
             this.UnameTb.TabIndex = 5;
             // 
             // label4
@@ -114,9 +117,10 @@
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label4.Location = new System.Drawing.Point(7, 274);
+            this.label4.Location = new System.Drawing.Point(5, 223);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(101, 28);
+            this.label4.Size = new System.Drawing.Size(82, 21);
             this.label4.TabIndex = 8;
             this.label4.Text = "Password";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -124,10 +128,10 @@
             // PwordTb
             // 
             this.PwordTb.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PwordTb.Location = new System.Drawing.Point(125, 271);
-            this.PwordTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PwordTb.Location = new System.Drawing.Point(94, 220);
+            this.PwordTb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PwordTb.Name = "PwordTb";
-            this.PwordTb.Size = new System.Drawing.Size(331, 34);
+            this.PwordTb.Size = new System.Drawing.Size(249, 29);
             this.PwordTb.TabIndex = 7;
             // 
             // label5
@@ -136,9 +140,10 @@
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label5.Location = new System.Drawing.Point(7, 322);
+            this.label5.Location = new System.Drawing.Point(5, 262);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(110, 28);
+            this.label5.Size = new System.Drawing.Size(90, 21);
             this.label5.TabIndex = 10;
             this.label5.Text = "Phone No.";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -146,10 +151,10 @@
             // PnumTb
             // 
             this.PnumTb.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PnumTb.Location = new System.Drawing.Point(125, 320);
-            this.PnumTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PnumTb.Location = new System.Drawing.Point(94, 260);
+            this.PnumTb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PnumTb.Name = "PnumTb";
-            this.PnumTb.Size = new System.Drawing.Size(331, 34);
+            this.PnumTb.Size = new System.Drawing.Size(249, 29);
             this.PnumTb.TabIndex = 9;
             // 
             // button1
@@ -160,10 +165,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(125, 368);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Location = new System.Drawing.Point(94, 299);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 44);
+            this.button1.Size = new System.Drawing.Size(77, 36);
             this.button1.TabIndex = 11;
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = false;
@@ -177,10 +182,10 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(239, 368);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Location = new System.Drawing.Point(179, 299);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(103, 44);
+            this.button2.Size = new System.Drawing.Size(77, 36);
             this.button2.TabIndex = 12;
             this.button2.Text = "Edit";
             this.button2.UseVisualStyleBackColor = false;
@@ -194,10 +199,10 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(353, 368);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button3.Location = new System.Drawing.Point(265, 299);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(103, 44);
+            this.button3.Size = new System.Drawing.Size(77, 36);
             this.button3.TabIndex = 13;
             this.button3.Text = "Delete";
             this.button3.UseVisualStyleBackColor = false;
@@ -211,10 +216,10 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(1223, 34);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button4.Location = new System.Drawing.Point(917, 28);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(103, 44);
+            this.button4.Size = new System.Drawing.Size(77, 36);
             this.button4.TabIndex = 14;
             this.button4.Text = "Home";
             this.button4.UseVisualStyleBackColor = false;
@@ -248,8 +253,8 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.UsersGV.DefaultCellStyle = dataGridViewCellStyle3;
             this.UsersGV.GridColor = System.Drawing.SystemColors.Control;
-            this.UsersGV.Location = new System.Drawing.Point(480, 170);
-            this.UsersGV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.UsersGV.Location = new System.Drawing.Point(360, 138);
+            this.UsersGV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.UsersGV.Name = "UsersGV";
             this.UsersGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.UsersGV.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
@@ -271,18 +276,18 @@
             this.UsersGV.RowTemplate.Height = 24;
             this.UsersGV.RowTemplate.ReadOnly = true;
             this.UsersGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.UsersGV.Size = new System.Drawing.Size(845, 535);
+            this.UsersGV.Size = new System.Drawing.Size(634, 435);
             this.UsersGV.TabIndex = 16;
             this.UsersGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.UsersGV_CellContentClick_1);
             // 
             // ManageUsers
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(23)))), ((int)(((byte)(43)))));
             this.BackgroundImage = global::MPrecision.Properties.Resources.BANNER;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1341, 729);
+            this.ClientSize = new System.Drawing.Size(1006, 592);
             this.Controls.Add(this.UsersGV);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -297,7 +302,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.FnameTb);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximizeBox = false;
             this.Name = "ManageUsers";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Manage Users";
