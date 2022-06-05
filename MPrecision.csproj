@@ -90,6 +90,9 @@
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ManageExpenses.resx">
+      <DependentUpon>ManageExpenses.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ManageInventory.resx">
       <DependentUpon>ManageInventory.cs</DependentUpon>
     </EmbeddedResource>

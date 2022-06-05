@@ -59,5 +59,12 @@ namespace MPrecision
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ManageExpenses expenses = new ManageExpenses();
+            expenses.Show();
+            this.Close();
+        }
     }
 }

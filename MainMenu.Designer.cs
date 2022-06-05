@@ -102,6 +102,7 @@
             this.button3.TabIndex = 5;
             this.button3.Text = "Expenses";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -172,7 +173,7 @@
             this.pictureBox1.BackgroundImage = global::MPrecision.Properties.Resources.SHIRT_ONLY;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Location = new System.Drawing.Point(660, 199);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(625, 458);
             this.pictureBox1.TabIndex = 10;
@@ -183,7 +184,7 @@
             this.pictureBox2.BackgroundImage = global::MPrecision.Properties.Resources.Untitled_1;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox2.Location = new System.Drawing.Point(875, 581);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(208, 76);
             this.pictureBox2.TabIndex = 11;
