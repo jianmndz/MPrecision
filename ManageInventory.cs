@@ -43,7 +43,7 @@ namespace MPrecision
             try
             {
                 Con.Open();
-                string Myquery = "select Date, Name, PlateNumber, MakeAndBody, Service, Sales, Streak, Staff from InventoryTbl";
+                string Myquery = "select Date, Name, PlateNumber, MakeAndBody, Service, Sales, Staff, Streak from InventoryTbl";
                 SqlDataAdapter adapter = new SqlDataAdapter(Myquery, Con);
                 SqlCommandBuilder builder = new SqlCommandBuilder(adapter);
                 var dataSet = new DataSet();
@@ -96,11 +96,11 @@ namespace MPrecision
                 }
                 else
                 {
+                    Con.Open();
                     String str = "";
                     foreach (string s in StaffList.CheckedItems)
                         str += s + "\r\n";
-                    Con.Open();
-                    SqlCommand cmd = new SqlCommand("insert into InventoryTbl values('" + DatePicker.Text + "', '" + NameTb.Text + "', '" + PlateTb.Text + "', '" + MakeBodyTb.Text + "', '" + ServiceTb.Text + "', '" + SalesTb.Text + "', '" + LoyaltyTb.Text + "', '" + str + "')", Con);
+                    SqlCommand cmd = new SqlCommand("insert into InventoryTbl values('" + DatePicker.Text + "', '" + NameTb.Text + "', '" + PlateTb.Text + "', '" + MakeBodyTb.Text + "', '" + ServiceTb.Text + "', '" + SalesTb.Text + "', '" + str + "', '" + LoyaltyTb.Text + "')", Con);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Data has been succesfully added!");
                     Con.Close();
