@@ -13,15 +13,11 @@ namespace MPrecision
     public partial class MainMenu : Form
     {
         public MainMenu()
-        {
-            InitializeComponent();
-        }
+            {
+                InitializeComponent();
+            }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        ///ADD INVENTORY BUTTON
         private void button1_Click(object sender, EventArgs e)
         {
             ManageInventory inventory = new ManageInventory();
@@ -29,25 +25,39 @@ namespace MPrecision
             this.Close();
         }
 
-        private void MainMenu_Load(object sender, EventArgs e)
-        {
+        ///VIEW INVENTORY TALLY BUTTON
+        private void button2_Click(object sender, EventArgs e)
+            {
+                ManageTally tally = new ManageTally();
+                tally.Show();
+                this.Close();
+            }
 
+        ///MANAGE EXPENSES
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ManageExpenses expenses = new ManageExpenses();
+            expenses.Show();
+            this.Close();
         }
 
+        ///CASH BALANCE BUTTON
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ManageCashBalance balance = new ManageCashBalance();
+            balance.Show();
+            this.Close();
+        }
+
+        ///MANAGE USERS BUTTON
         private void button5_Click(object sender, EventArgs e)
-        {
-            ManageUsers users = new ManageUsers();
-            users.Show();
-            this.Close();
-        }
+            {
+                ManageUsers users = new ManageUsers();
+                users.Show();
+                this.Close();
+            }
 
-        private void button7_Click(object sender, EventArgs e)
-        {
-            Login login = new Login();
-            login.Show();
-            this.Close();
-        }
-
+        ///MANAGE STAFF BUTTON
         private void button4_Click(object sender, EventArgs e)
         {
             ManageStaff staff = new ManageStaff();
@@ -55,16 +65,12 @@ namespace MPrecision
             this.Close();
         }
 
-        private void button6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            ManageExpenses expenses = new ManageExpenses();
-            expenses.Show();
-            this.Close();
-        }
+        ///LOGOUT BUTTON
+        private void button7_Click(object sender, EventArgs e)
+            {
+                Login login = new Login();
+                login.Show();
+                this.Close();
+            }
     }
 }

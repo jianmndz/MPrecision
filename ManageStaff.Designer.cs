@@ -194,7 +194,6 @@
             this.FnameTb.Name = "FnameTb";
             this.FnameTb.Size = new System.Drawing.Size(249, 29);
             this.FnameTb.TabIndex = 27;
-            this.FnameTb.TextChanged += new System.EventHandler(this.FnameTb_TextChanged);
             // 
             // button2
             // 
