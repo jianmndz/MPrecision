@@ -25,7 +25,7 @@ namespace MPrecision
         public void SearchExpenses(string search)
             {
                 Con.Open();
-                string Myquery = "select Date, ExpenseType, ExpenseBy, Cost from ExpensesTbl where Date like '%" + search + "%'";
+                string Myquery = "select Date, ExpenseType, ExpenseBy, Cost from ExpensesTbl where Date like '%" + search + "%' or ExpenseType like '%" + search + "%' or ExpenseBy like '%" + search + "%' or Cost like '%" + search + "%'";
                 SqlDataAdapter adapter = new SqlDataAdapter(Myquery, Con);
                 DataTable dt = new DataTable();
                 adapter.Fill(dt);
@@ -42,7 +42,7 @@ namespace MPrecision
         ///SEARCH BAR FOR EXPENSES TABLE
         private void SearchExpenses_Enter(object sender, EventArgs e)
             {
-                if (SearchExpensesTb.Text == "Filter Expenses by Date")
+                if (SearchExpensesTb.Text == "Filter/Search")
                 {
                     SearchExpensesTb.Text = "";
                     SearchExpensesTb.ForeColor = Color.Black;
@@ -53,7 +53,7 @@ namespace MPrecision
         public void SearchInventory(string search)
             {
                 Con.Open();
-                string Myquery = "select Date, Name, PlateNumber, MakeAndBody, Service, Sales, CommissionPercent, CommissionCost, Staff from InventoryTbl where Date like '%" + search + "%'";
+                string Myquery = "select Date, Name, PlateNumber, MakeAndBody, Service, Sales, CommissionPercent, CommissionCost, Staff from InventoryTbl where Date like '%" + search + "%' or Name like '%" + search + "%' or PlateNumber like '%" + search + "%' or MakeAndBody like '%" + search + "%' or Service like '%" + search + "%' or Sales like '%" + search + "%' or CommissionPercent like '%" + search + "%' or CommissionCost like '%" + search + "%' or Staff like '%" + search + "%'";
                 SqlDataAdapter adapter = new SqlDataAdapter(Myquery, Con);
                 DataTable dt = new DataTable();
                 adapter.Fill(dt);
@@ -64,7 +64,7 @@ namespace MPrecision
         ///SEARCH BAR FOR INVENTORY TABLE
         private void SearchInventory_Enter(object sender, EventArgs e)
             {
-                if (SearchInventoryTb.Text == "Filter Inventory by Date")
+                if (SearchInventoryTb.Text == "Filter/Search")
                 {
                     SearchInventoryTb.Text = "";
                     SearchInventoryTb.ForeColor = Color.Black;

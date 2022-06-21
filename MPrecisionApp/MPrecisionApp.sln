@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MPrecisionApp", "MPrecisionApp.vdproj", "{4E9BAEA8-EA94-4E31-99EA-5F7CC8597452}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E9BAEA8-EA94-4E31-99EA-5F7CC8597452}.Debug|Default.ActiveCfg = Debug
+		{4E9BAEA8-EA94-4E31-99EA-5F7CC8597452}.Debug|Default.Build.0 = Debug
+		{4E9BAEA8-EA94-4E31-99EA-5F7CC8597452}.Release|Default.ActiveCfg = Release
+		{4E9BAEA8-EA94-4E31-99EA-5F7CC8597452}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AF26370-BEDE-4B60-8FAE-15AC036BD242}
+	EndGlobalSection
+EndGlobal

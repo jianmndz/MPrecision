@@ -63,7 +63,7 @@
             this.SearchTb.Name = "SearchTb";
             this.SearchTb.Size = new System.Drawing.Size(340, 38);
             this.SearchTb.TabIndex = 53;
-            this.SearchTb.Text = "Search date";
+            this.SearchTb.Text = "Filter/Search";
             this.SearchTb.TextChanged += new System.EventHandler(this.SearchTb_TextChanged_1);
             this.SearchTb.Enter += new System.EventHandler(this.Search_Enter);
             // 

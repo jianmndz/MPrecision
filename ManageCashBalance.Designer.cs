@@ -209,7 +209,7 @@
             this.SearchExpensesTb.Name = "SearchExpensesTb";
             this.SearchExpensesTb.Size = new System.Drawing.Size(340, 38);
             this.SearchExpensesTb.TabIndex = 71;
-            this.SearchExpensesTb.Text = "Filter Expenses by Date";
+            this.SearchExpensesTb.Text = "Filter/Search";
             this.SearchExpensesTb.TextChanged += new System.EventHandler(this.SearchExpensesTb_TextChanged);
             this.SearchExpensesTb.Enter += new System.EventHandler(this.SearchExpenses_Enter);
             // 
@@ -364,7 +364,7 @@
             this.SearchInventoryTb.Name = "SearchInventoryTb";
             this.SearchInventoryTb.Size = new System.Drawing.Size(340, 38);
             this.SearchInventoryTb.TabIndex = 84;
-            this.SearchInventoryTb.Text = "Filter Inventory by Date";
+            this.SearchInventoryTb.Text = "Filter/Search";
             this.SearchInventoryTb.TextChanged += new System.EventHandler(this.SearchInventoryTb_TextChanged);
             this.SearchInventoryTb.Enter += new System.EventHandler(this.SearchInventory_Enter);
             // 

@@ -25,7 +25,7 @@ namespace MPrecision
         public void Search(string search)
             {
                 Con.Open();
-                string Myquery = "select * from InventoryTbl where Date like '%" + search + "%'";
+                string Myquery = "select ID, Date, Name, PlateNumber, MakeAndBody, Service, Sales, CommissionPercent, CommissionCost, Staff, Streak from InventoryTbl where  ID like '%" + search + "%' or Date like '%" + search + "%' or Name like '%" + search + "%' or PlateNumber like '%" + search + "%' or MakeAndBody like '%" + search + "%' or Service like '%" + search + "%' or Sales like '%" + search + "%' or CommissionPercent like '%" + search + "%' or CommissionCost like '%" + search + "%' or Staff like '%" + search + "%' or  Streak like '%" + search + "%'";
                 SqlDataAdapter adapter = new SqlDataAdapter(Myquery, Con);
                 DataTable dt = new DataTable();
                 adapter.Fill(dt);
@@ -42,7 +42,7 @@ namespace MPrecision
         ///SEARCH BUTTON FOR INVENTORY TABLE/GRID VIEW
         private void Search_Enter(object sender, EventArgs e)
             {
-                if (SearchTb.Text == "Search date")
+                if (SearchTb.Text == "Filter/Search")
                 {
                     SearchTb.Text = "";
                     SearchTb.ForeColor = Color.Black;
