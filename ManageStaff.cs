@@ -116,5 +116,11 @@ namespace MPrecision
                 menu.Show();
                 this.Close();
             }
+
+        private void button5_Click(object sender, EventArgs e)
+            {
+                FnameTb.Text = "";
+                PnumTb.Text = "";
+            }
     }
 }

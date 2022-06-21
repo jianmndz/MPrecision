@@ -93,13 +93,22 @@ namespace MPrecision
                 else
                 {
                     Con.Open();
-                    string myquery = "delete from UserTbl where Phone='" + PnumTb.Text + "';";
+                    string myquery = "delete from UserTbl where PhoneNumber='" + PnumTb.Text + "';";
                     SqlCommand cmd = new SqlCommand(myquery, Con);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("User has been succesfully removed!");
                     Con.Close();
                     populate();
                 }
+            }
+
+        ///CLEAR BUTTON
+        private void button5_Click_1(object sender, EventArgs e)
+            {
+                FnameTb.Text = "";
+                UnameTb.Text = "";
+                PwordTb.Text = "";
+                PnumTb.Text = "";
             }
 
         ///HOME BUTTON
