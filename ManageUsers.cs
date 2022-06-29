@@ -71,7 +71,7 @@ namespace MPrecision
                 try
                 {
                     Con.Open();
-                    SqlCommand cmd = new SqlCommand("UPDATE UserTbl SET Username='" + UnameTb.Text + "', Password='" + PwordTb.Text + "', Phone='" + PnumTb.Text + "' where Name='" + FnameTb.Text + "'", Con);
+                    SqlCommand cmd = new SqlCommand("UPDATE UserTbl SET Name='" + FnameTb.Text + "', Username='" + UnameTb.Text + "', Password='" + PwordTb.Text + "', PhoneNumber='" + PnumTb.Text + "' where Name='" + FnameTb.Text + "'", Con);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("User has been succesfully updated!");
                     Con.Close();
